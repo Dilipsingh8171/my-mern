@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* navbar css */
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  box-shadow: 8px 7px 2px 2px grey;
+  -webkit-box-shadow: 8px 7px 7px -7px black;
+
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 1px solid black;
+}
+
+.navbar-brand {
+  font-weight: 800px;
+  font-family: 'roboto', sans-serif;
+  letter-spacing: 3px;
+}
+
+/* footer css */
+
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgb(13, 20, 54) 0%, rgb(16, 2, 5) 100%);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: antiquewhite;
+  border-bottom: 1px solid #ffefba;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+
+/* login */
+
+.login {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+/* ContactUs.css */
+
+.contact-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 170px);
+  background-color: #f9f9f9;
+}
+
+.contact-us-image {
+  flex: 1;
+}
+
+.contact-us-image img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.contact-us-content {
+  flex: 1;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us-content h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form .submit-btn {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form .submit-btn:hover {
+  background-color: #0056b3;
+}
